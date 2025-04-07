@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    padding: 10px;
+    gap: 600px;
+    align-items: center;
+   
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+ .snap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+ }
+ .sn{
+    padding: 30px;
+ }
+ .snap li{
+    list-style: none;
+    gap: 90px;
+   
+ }
+
+.snap h1{
+   font-size: 37px;
+   font-weight: bold;
+   gap: 90px; 
+   
+}
+span{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.reg{
+    height: 5vh;
+    width: 10vw;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.reg:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: white;
+}
+.arr{width: 10px;
+    height: 7px;
+    
+}
+.lo:hover{
+    cursor: pointer;
+    color: rgb(245, 245, 25);
+
+}
+.relog{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    padding: 30px;
+}
+.fcca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.fea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.com{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.arrow{
+    height: 1vh;
+}
+.hero{
+    height: 500px;
+    padding-left: 100px;
+}
+.four{
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+    padding-left: 75px;
+}
+.opp{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 60px; */
+
+}
+.Make{
+    font-size: 8vh;
+    width: 23vw;
+
+    
+}
+.get{
+    width: 24vw;
+}
+.but{
+    height: 8vh;
+    width: 12vw;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.but:hover{
+    cursor: pointer;
+    background-color: yellow; 
+}
+.a{
+    width: 8vw;
+    height: 4vh;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    
+
+}
+.last{
+    display: flex;
+    
+}
+.mhero{
+    display: none;
+}
+.nap{
+    display: none;
+}
+
+
+@media screen and (max-width: 950px){
+
+        
+       
+    
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+    }
+    nav{
+        display: none;
+        
+    }
+    .nap{
+        display: flex;
+        padding: 25px;
+        font-size:15vw;
+    }
+    .mhero{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 50vh;
+        width:120vw;
+        
+    }
+    .sn{
+        display: flex;
+
+    }
+    .menu{
+        display: flex;
+    }
+    .Make{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        font-size: bolder;
+    }
+    .opp{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .get{
+        display: flex;
+        width: 100vw;
+        font-size: 6vw;
+        text-align: center;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .learn{
+        display: flex;
+        font-size: 5vw;
+        
+        
+    }
+    .but{
+        display: flex;
+        height: 15vw;
+        width: 50vw;
+        align-items: center;
+        justify-content: center;
+    }
+.last{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 600vh;
+}
+.Make{
+    display: flex;
+    width: 80vw;
+    font-size: 5vh;
+    align-items: center;
+    justify-content: center; 
+    
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+        
+}
+.four{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+   padding: 40px; 
+}
+.a{
+    width: 20vw;
+    height: 5vh;
+}
+
+.hero{
+    display: none;
+    
+   
+}
+
+
+
+
+
+}
